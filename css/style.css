@@ -91,6 +91,10 @@ main .contacts h3 {
 main li {
   margin-bottom: 10px;
 }
+
+main li > b{
+  font-weight: 600;
+}
 /*--LEFT COLUMN: MAIN--*/
 
 /*LEFT COLUMN: CONTACTS*/
