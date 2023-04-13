@@ -4,7 +4,7 @@
   --gray-hover: #646363;
   --gray-active: #2d2c2c;
   --ligth-gray-color: #777777;
-  --pink-color: #b1cbbb;
+  --mint-color: #b1cbbb;
 }
 
 body {
@@ -29,7 +29,7 @@ body {
 .left-column {
   width: 42%;
   color: var(--dark-gray-color);
-  background-color: var(--pink-color);
+  background-color: var(--mint-color);
 }
 
 .right-column {
@@ -48,8 +48,9 @@ header {
 
 header img {
   margin-bottom: 10px;
-  border: 10px solid var(--pink-color);
+  border: 10px solid var(--mint-color);
   border-radius: 50%;
+  padding: 1px;
 }
 
 header h1 {
