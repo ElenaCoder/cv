@@ -188,6 +188,19 @@ main :not(.contacts) ul {
 /*--RIGHT COLUMN: EDUCATION--*/
 
 /*RIGHT COLUMN: EXPERIENCE*/
+.work-two .rschool-roadmap {
+  text-decoration:underline;
+  font-style: italic;
+}
+
+.work-two .rschool-roadmap:hover {
+  text-decoration:none;
+}
+
+.work-two {
+  margin-bottom: 15px;
+}
+
 .experience i {
   font-size: 36px;
 }
