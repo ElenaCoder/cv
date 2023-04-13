@@ -194,6 +194,10 @@ main :not(.contacts) ul {
 .work-two .rschool-roadmap {
   text-decoration:underline;
   font-style: italic;
+  cursor: pointer;
+  color: var(--gray-hover);
+  font-weight: 600;
+  font-size: 16px;
 }
 
 .work-two .rschool-roadmap:hover {
