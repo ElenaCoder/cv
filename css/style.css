@@ -1,6 +1,8 @@
 /*GENERAL SETTINGS*/
 :root {
   --dark-gray-color: #505050;
+  --gray-hover: #646363;
+  --gray-active: #2d2c2c;
   --ligth-gray-color: #777777;
   --pink-color: #b1cbbb;
 }
@@ -228,18 +230,42 @@ main :not(.contacts) ul {
   margin-left: 45px;
 }
 
-.code-example p strong {
-  font-weight: 700;
+.portfolio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 24px;
+    padding: 7px 0;
+    border-radius: 10px;
+    background-color: var(--dark-gray-color);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.2s ease-in-out;
+    margin-top: 10px;
+    margin-left: 45px;
 }
 
-pre {
-  margin-left: 20px;
-  margin: 20px;
-  padding-top: 20px;
-  font-family: monospace;
-  font-size: 0.9rem;
-  background-color: #f5f5f5;
+.portfolio:hover{
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+  background-color: var(--gray-hover);
 }
+.portfolio:active{
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+  background-color: var(--gray-active);
+}
+
+.portfolio a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 145px;
+  height: 24px;
+  text-align: center;
+}
+i.fa-laptop-code {
+  padding-right: 0;
+}
+
 /*--RIGHT COLUMN: CODE--*/
 
 /*FOOTER*/
