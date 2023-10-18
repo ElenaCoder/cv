@@ -136,6 +136,19 @@ main :not(.contacts) ul {
   text-transform: uppercase;
 }
 /*--LEFT COLUMN: LANGUAGES--*/
+
+/*--LEFT COLUMN: SKILLS--*/
+h4 {
+  text-align:start;
+  font-weight: 600;
+  margin: 10px 5px 0px 20px;
+}
+
+ul li{
+  margin-bottom: 0px;
+  /* font-size: 16px; */
+}
+/*--LEFT COLUMN: SKILLS--*/
 /*--------------------------*/
 
 /*RIGHT COLUMN: ABOUT MYSELF*/
